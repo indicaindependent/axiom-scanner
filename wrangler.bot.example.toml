@@ -1,0 +1,17 @@
+name = "axiom-bot"
+main = "axiom-bot.js"
+compatibility_date = "2024-11-01"
+
+[vars]
+SCANNER_URL = "https://scan.example.com"        # your deployed axiom-scanner
+# Optional locks:
+AXIOM_GUILD_ID = ""                              # restrict /scan to one server
+AXIOM_BOTS_COMMANDS_CHANNEL = ""                 # restrict /scan to one channel
+# SCANNER_FALLBACK_URL = ""                       # optional workers.dev fallback
+
+# Secrets (set via `wrangler secret put`, never commit):
+#   AXIOM_DISCORD_PUBLIC_KEY   from the Discord Developer Portal
+#   AXIOM_DISCORD_APP_ID
+#   AXIOM_DISCORD_TOKEN        bot token
+#   AXIOM_SCAN_KEY             must match the scanner's key (if it uses one)
+#   INTERNAL_SECRET            Bearer token to authorize POST /admin/commands

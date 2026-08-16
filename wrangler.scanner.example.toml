@@ -1,0 +1,9 @@
+name = "axiom-scanner"
+main = "axiom-scanner.js"
+compatibility_date = "2024-11-01"
+
+# Optional: put it on your own route (otherwise use the workers.dev URL)
+# routes = [{ pattern = "scan.example.com", custom_domain = true }]
+
+# Secrets (set via `wrangler secret put`, never commit):
+#   AXIOM_SCAN_KEY   optional — if set, callers must send  x-axiom-key: <key>
