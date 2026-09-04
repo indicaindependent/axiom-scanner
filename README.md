@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ Axiom
+# Axiom
 
 **A free, read-only web-security scanner you run from Discord — `/scan yoursite.com` and get a graded vulnerability report card in seconds.**
 
